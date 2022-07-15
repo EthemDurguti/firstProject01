@@ -272,4 +272,7 @@ form{
 }
 .map{
     justify-self:flex-end;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    border-radius: 9px;
 }
