@@ -279,3 +279,72 @@ form{
     padding: 10px;
     border-radius: 9px;
 }
+/* Official Part*/
+
+.official{
+    height: calc(100vh );
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.official-text{
+    padding-top: 100px;
+    font-size: 32px;
+    /* border: 1px solid dodgerblue; */
+    text-align: center;
+    color: orangered;
+}
+.official-text h2 b{
+    color: dodgerblue;
+}
+.official-image img{
+    width: 100%;
+}
+
+.footer-container{
+    background-color: rgb(128, 184, 240);
+    border-top: 2px solid dodgerblue;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    align-content: center;
+}
+.foot{
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.foot ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    border-bottom: 2px solid dodgerblue;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.third-f form{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.third-f label{
+    display: block;
+}
+.third-f input{
+    background-color: aliceblue;
+    line-height: 22px;
+    margin-left: 100px;
+}
+.third-f input[type="submit"]{
+    background-color: dodgerblue;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+}
