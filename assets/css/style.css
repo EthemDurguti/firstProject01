@@ -106,6 +106,7 @@ section{
     background-color: aliceblue;
 
     height: calc(100vh - 151px);
+    background-color: to;
 }
 .main-banner{
     display: grid;
@@ -113,6 +114,7 @@ section{
 }
 .main-text{
     padding: 60px 20px;
+    background-color: rgb(193, 236, 236);
 }
 
 .main-text p:first-child{
@@ -145,8 +147,8 @@ form{
     border: 0px;
 }
 .main-text input:hover{
-    color: dodgerblue;
-    background-color: aliceblue;
+    color: white;
+    background-color: dodgerblue;
     font-weight: bold;
 }
 .main-logo img{
