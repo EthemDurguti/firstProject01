@@ -100,17 +100,15 @@ div .offer span{
     }
 }
 
-/* Main Logo Part*/
-section{
+/* Main Banner Part*/
+
+.main-banner{
+    display: grid;
+    grid-template-columns: 2fr 5fr ;
     margin-top: 151px;
     background-color: aliceblue;
 
     height: calc(100vh - 151px);
-    background-color: to;
-}
-.main-banner{
-    display: grid;
-    grid-template-columns: 2fr 5fr ;
 }
 .main-text{
     padding: 60px 20px;
@@ -145,14 +143,30 @@ form{
     cursor: pointer;
     background-color: rgb(163, 222, 224);
     border: 0px;
+    border: 1px solid dodgerblue;
 }
 .main-text input:hover{
     color: white;
     background-color: dodgerblue;
-    font-weight: bold;
+    font-weight: bold; 
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: color 0.8s ease-in-out;
+    transition: background-color 0.8s ease-in-out;
 }
 .main-logo img{
    width: 100%;
+   margin: 40px auto;
    padding: 20px;
    border-radius: 11%;
+}
+
+/* Main Rent Part*/
+
+.main-rent{
+    background-color: aliceblue;
+    height: calc(100vh - 151px);
+}
+.rent-scooter{
+    
 }
