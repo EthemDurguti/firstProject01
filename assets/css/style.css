@@ -246,3 +246,30 @@ form{
 .box i{
     font-size: 22px;
 }
+/* Map Part*/
+
+.map-section{
+    background-color: aliceblue;
+    padding: 60px 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.places{
+    justify-self: center;
+    margin-top: 40px;
+}
+.places ul {
+    list-style-type: none;
+}
+.places ul li {
+    margin-top: 40px;
+    font-size: 32px;
+}
+.our-locations{
+    color: dodgerblue;
+    font-weight: bold;
+}
+.map{
+    justify-self:flex-end;
+}
