@@ -120,6 +120,7 @@ div .offer span{
     text-align: center;
     text-transform: uppercase;
     /* font-weight: bold; */
+    border-top: 2px solid blue;
 }
 p.scooter{
     font-size: 32px;
@@ -127,6 +128,7 @@ p.scooter{
     text-transform: uppercase;
     font-weight: bold;
     color: dodgerblue;
+    border-top: 2px solid blue;
 }
 p.long-text{
     text-align: center;
@@ -143,7 +145,8 @@ form{
     cursor: pointer;
     background-color: rgb(163, 222, 224);
     border: 0px;
-    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    border: 2px solid blue;
 }
 .main-text input:hover{
     color: white;
@@ -165,8 +168,30 @@ form{
 
 .main-rent{
     background-color: aliceblue;
-    height: calc(100vh - 151px);
+    /* height: calc(100vh - 151px); */
+}
+.rent-text{
+    height: 160px;
+    background-color: rgb(163, 222, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
 }
 .rent-scooter{
-    
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(163, 222, 224); */
+}
+.box{
+    width: 32%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.box img{
+    width: 100%;
 }
