@@ -348,3 +348,28 @@ form{
     border-radius: 13px;
     cursor: pointer;
 }
+
+
+/* Mobile Version*/
+
+@media only screen and (max-width: 450px){
+
+    .container-header{
+        width: 100%;
+        position: relative;
+        flex-direction: row;
+    }
+    .container-header .logo{
+        width: 100%;
+    }
+    .nav ul li {
+        display: block;
+    }
+    .offer{
+        position: relative;
+    }
+    div .offer {
+        width: 100%;
+        position:relative;
+
+}
